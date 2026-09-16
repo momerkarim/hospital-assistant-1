@@ -1,0 +1,389 @@
+{
+  "generated_at": "2026-09-16T21:29:23.332595+00:00",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "chunk_size": 1000,
+  "chunk_overlap": 150,
+  "total_chunks": 38,
+  "chunks": [
+    {
+      "chunk_id": "eda8e88e-e13e-420f-8d08-a5c92c1409a8",
+      "chunk_index": 0,
+      "text": "Al Noor General Hospital — Mock RAG Corpus Index\n\nSynthetic enterprise corpus for testing retrieval, chunking, metadata filtering, citations, and multi-document question answering. No real patient or employee information is included.\n\n01 Clinical Operations\n\nPatient Admission & Discharge Policy — 01_Clinical_Operations\n\nEmergency Department Operations SOP — 01_Clinical_Operations\n\nInpatient Nursing Operations SOP — 01_Clinical_Operations\n\n02 Pharmacy and Laboratory\n\nPharmacy Dispensing & Medication Management — 02_Pharmacy_and_Laboratory\n\nLaboratory Specimen Collection & Reporting SOP — 02_Pharmacy_and_Laboratory\n\nBlood Bank Operations & Transfusion Policy — 02_Pharmacy_and_Laboratory\n\n03 Finance and Billing\n\nPatient Billing & Cash Collection Policy — 03_Finance_and_Billing\n\nInsurance Claims & Pre-Authorization SOP — 03_Finance_and_Billing\n\n04 HR and Administration\n\nHR Recruitment, Onboarding & Leave Policy — 04_HR_and_Administration",
+      "source": "00_Corpus_Index_and_RAG_Test_Questions.docx",
+      "file_name": "00_Corpus_Index_and_RAG_Test_Questions.docx",
+      "department": "root",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "df179ef3-15a2-4ed2-b595-3673d51598af",
+      "chunk_index": 1,
+      "text": "04 HR and Administration\n\nHR Recruitment, Onboarding & Leave Policy — 04_HR_and_Administration\n\nStaff Performance & Training Framework — 04_HR_and_Administration\n\n05 Facilities and Supply Chain\n\nProcurement & Medical Supplies SOP — 05_Facilities_and_Supply_Chain\n\nFacilities Maintenance & Biomedical Equipment SOP — 05_Facilities_and_Supply_Chain\n\n06 IT and Information Governance\n\nHospital IT Access & Cybersecurity Policy — 06_IT_and_Information_Governance\n\nEHR Data Governance & Privacy Policy — 06_IT_and_Information_Governance\n\n07 Quality and Compliance\n\nIncident Reporting & Patient Safety Policy — 07_Quality_and_Compliance\n\nInfection Prevention & Control Manual — 07_Quality_and_Compliance\n\nSuggested RAG Test Questions\n\nWhat is the target door-to-triage time in the Emergency Department?\n\nWho can approve refunds and manual billing adjustments?\n\nWhat checks are required before dispensing medication?\n\nWhat is the blood storage temperature requirement for refrigerated medicines?",
+      "source": "00_Corpus_Index_and_RAG_Test_Questions.docx",
+      "file_name": "00_Corpus_Index_and_RAG_Test_Questions.docx",
+      "department": "root",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "25c4f17c-6464-44b1-81f7-fd18a037946a",
+      "chunk_index": 2,
+      "text": "What checks are required before dispensing medication?\n\nWhat is the blood storage temperature requirement for refrigerated medicines?\n\nWhat are the steps for a suspected transfusion reaction?\n\nWhat is the clean-claim rate target?\n\nHow are critical laboratory results communicated?\n\nWhat happens when biomedical equipment fails?\n\nWhat are the required steps for a new employee onboarding?\n\nWhat events should be reported through the patient safety process?\n\nWho can access patient information in the EHR?\n\nWhat is the target for critical equipment preventive maintenance?\n\nWhich documents mention escalation matrices?\n\nCompare the KPIs for Emergency, Laboratory, Pharmacy, and Billing operations.",
+      "source": "00_Corpus_Index_and_RAG_Test_Questions.docx",
+      "file_name": "00_Corpus_Index_and_RAG_Test_Questions.docx",
+      "department": "root",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "b5e8b685-ff8c-46c2-8d1b-eaee81352ebe",
+      "chunk_index": 3,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nPatient Billing & Cash Collection Policy\n\nDocument ID: ANGH-07_ | Department: 03_Finance_and_Billing\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nDefines charging, invoice generation, payment collection, refunds, discounts, and financial reconciliation.\n\nBilling Workflow\n\nClinical services and consumables are captured from approved source systems.\n\nBilling staff validate charges before invoice finalization.\n\nPatient receives an itemized invoice where applicable.\n\nCashier records payment against the correct patient account and payment method.\n\nRefunds and Adjustments\n\nRefunds, write-offs, and manual adjustments require documented authorization according to the financial delegation matrix.\n\nDaily Reconciliation",
+      "source": "03_Finance_and_Billing/07_Patient_Billing_and_Cash_Collection_Policy.docx",
+      "file_name": "07_Patient_Billing_and_Cash_Collection_Policy.docx",
+      "department": "03_Finance_and_Billing",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "89928d52-b712-4848-9a9f-4321d28f489d",
+      "chunk_index": 4,
+      "text": "Refunds, write-offs, and manual adjustments require documented authorization according to the financial delegation matrix.\n\nDaily Reconciliation\n\nCash, card, bank transfer, and approved digital payment records are reconciled against system transactions at the end of each business day.\n\nKPIs\n\nBilling accuracy ≥98.5%. Daily cash reconciliation completion = 100%. Unresolved billing exceptions older than 7 days should remain below 2%.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nPatient Billing & Cash Collection Policy, 03_Finance_and_Billing, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "03_Finance_and_Billing/07_Patient_Billing_and_Cash_Collection_Policy.docx",
+      "file_name": "07_Patient_Billing_and_Cash_Collection_Policy.docx",
+      "department": "03_Finance_and_Billing",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "686fd81f-f9cc-4fad-82ad-53fc79e183fa",
+      "chunk_index": 5,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nInsurance Claims & Pre-Authorization SOP\n\nDocument ID: ANGH-08_ | Department: 03_Finance_and_Billing\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nStandardizes insurance eligibility, pre-authorization, claim preparation, submission, rejection handling, and reconciliation.\n\nEligibility\n\nInsurance desk verifies policy status, member details, coverage limits, exclusions, and required referral/pre-authorization.\n\nPre-Authorization\n\nCollect clinical justification and required reports.\n\nSubmit authorization through the insurer's approved channel.\n\nTrack authorization number, approved services, validity period, and financial limits.\n\nEscalate delayed approvals that may affect patient care.\n\nClaims",
+      "source": "03_Finance_and_Billing/08_Insurance_Claims_and_PreAuthorization_SOP.docx",
+      "file_name": "08_Insurance_Claims_and_PreAuthorization_SOP.docx",
+      "department": "03_Finance_and_Billing",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "f3260f46-ae6b-4027-a8b9-a507aef57111",
+      "chunk_index": 6,
+      "text": "Escalate delayed approvals that may affect patient care.\n\nClaims\n\nClaims include patient identifiers, service codes, clinical documentation, approved authorization, invoices, and required attachments.\n\nKPIs\n\nClean-claim rate ≥95%. Pre-authorization turnaround for standard requests ≤4 hours. Claims rejection rate target <5%.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nInsurance Claims & Pre-Authorization SOP, 03_Finance_and_Billing, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "03_Finance_and_Billing/08_Insurance_Claims_and_PreAuthorization_SOP.docx",
+      "file_name": "08_Insurance_Claims_and_PreAuthorization_SOP.docx",
+      "department": "03_Finance_and_Billing",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "8e24ac88-7334-4c5b-9303-9bc6791dea69",
+      "chunk_index": 7,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nLaboratory Specimen Collection & Reporting SOP\n\nDocument ID: ANGH-05_ | Department: 02_Pharmacy_and_Laboratory\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nEnsures specimen identification, collection, transport, analysis, result validation, and reporting are controlled.\n\nSpecimen Collection\n\nVerify patient using two identifiers.\n\nLabel specimen immediately at the collection point.\n\nRecord collection time and collector identity.\n\nReject specimens that are unlabeled, mismatched, leaking, or unsuitable for the requested test.\n\nCritical Results\n\nCritical laboratory results are communicated to the responsible clinical team immediately and read-back is documented.\n\nTurnaround Times",
+      "source": "02_Pharmacy_and_Laboratory/05_Laboratory_Specimen_Collection_and_Reporting_SOP.docx",
+      "file_name": "05_Laboratory_Specimen_Collection_and_Reporting_SOP.docx",
+      "department": "02_Pharmacy_and_Laboratory",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "22ff6a5c-358c-4967-929e-c8edaf22eff0",
+      "chunk_index": 8,
+      "text": "Critical laboratory results are communicated to the responsible clinical team immediately and read-back is documented.\n\nTurnaround Times\n\nRoutine CBC target: ≤90 minutes. Routine chemistry target: ≤120 minutes. Urgent tests follow department-specific escalation targets.\n\nQuality Controls\n\nDaily internal quality controls are reviewed before releasing affected analytical results. External quality assessment participation is maintained for applicable tests.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords",
+      "source": "02_Pharmacy_and_Laboratory/05_Laboratory_Specimen_Collection_and_Reporting_SOP.docx",
+      "file_name": "05_Laboratory_Specimen_Collection_and_Reporting_SOP.docx",
+      "department": "02_Pharmacy_and_Laboratory",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "dee98a83-5c79-48ee-b946-781387718c78",
+      "chunk_index": 9,
+      "text": "Related Keywords\n\nLaboratory Specimen Collection & Reporting SOP, 02_Pharmacy_and_Laboratory, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "02_Pharmacy_and_Laboratory/05_Laboratory_Specimen_Collection_and_Reporting_SOP.docx",
+      "file_name": "05_Laboratory_Specimen_Collection_and_Reporting_SOP.docx",
+      "department": "02_Pharmacy_and_Laboratory",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "80181a71-e271-4eb6-9d39-3eda715be6d9",
+      "chunk_index": 10,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nBlood Bank Operations & Transfusion Policy\n\nDocument ID: ANGH-06_ | Department: 02_Pharmacy_and_Laboratory\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nDefines safe blood request, compatibility testing, storage, issue, bedside verification, administration, reaction management, and traceability.\n\nBlood Request\n\nThe authorized clinician documents indication, component type, quantity, urgency, and relevant clinical information.\n\nCompatibility and Issue\n\nPatient identification and sample labelling are verified before testing.\n\nBlood components are issued only against an authorized request.\n\nTemperature-controlled storage is monitored continuously or through approved validated monitoring systems.\n\nBedside Verification",
+      "source": "02_Pharmacy_and_Laboratory/06_Blood_Bank_Operations_and_Transfusion_Policy.docx",
+      "file_name": "06_Blood_Bank_Operations_and_Transfusion_Policy.docx",
+      "department": "02_Pharmacy_and_Laboratory",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "95568e01-8d55-4526-aaa4-ea867c6a058c",
+      "chunk_index": 11,
+      "text": "Temperature-controlled storage is monitored continuously or through approved validated monitoring systems.\n\nBedside Verification\n\nTwo qualified staff verify patient identity, blood group, component type, unit number, expiry, and compatibility documentation before transfusion.\n\nTransfusion Reaction\n\nStop transfusion immediately if a reaction is suspected, maintain IV access with appropriate fluid, notify the physician and blood bank, and document the event according to incident-reporting procedures.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords",
+      "source": "02_Pharmacy_and_Laboratory/06_Blood_Bank_Operations_and_Transfusion_Policy.docx",
+      "file_name": "06_Blood_Bank_Operations_and_Transfusion_Policy.docx",
+      "department": "02_Pharmacy_and_Laboratory",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "56f8d933-85ba-40fa-8e1a-0482d97af8c7",
+      "chunk_index": 12,
+      "text": "Related Keywords\n\nBlood Bank Operations & Transfusion Policy, 02_Pharmacy_and_Laboratory, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "02_Pharmacy_and_Laboratory/06_Blood_Bank_Operations_and_Transfusion_Policy.docx",
+      "file_name": "06_Blood_Bank_Operations_and_Transfusion_Policy.docx",
+      "department": "02_Pharmacy_and_Laboratory",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "01b31b9a-65d2-408c-bc47-d91b18bcb95e",
+      "chunk_index": 13,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nPharmacy Dispensing & Medication Management\n\nDocument ID: ANGH-04_ | Department: 02_Pharmacy_and_Laboratory\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nControls medication procurement, storage, prescribing review, dispensing, administration support, and medication reconciliation.\n\nDispensing Workflow\n\nPrescription received → pharmacist clinical review → stock verification → dispensing → independent check → patient/ward handover → transaction recording.\n\nControlled medicines require authorized prescription and register entry.\n\nStorage\n\nRefrigerated medicines are maintained at 2–8°C unless manufacturer instructions specify otherwise. Temperature excursions are documented and escalated.\n\nMedication Reconciliation",
+      "source": "02_Pharmacy_and_Laboratory/04_Pharmacy_Dispensing_and_Medication_Management.docx",
+      "file_name": "04_Pharmacy_Dispensing_and_Medication_Management.docx",
+      "department": "02_Pharmacy_and_Laboratory",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "ea0f1729-5915-4b7e-a051-67e3fa0d7972",
+      "chunk_index": 14,
+      "text": "Medication Reconciliation\n\nPharmacy compares home medicines, admission orders, transfers, and discharge prescriptions to identify omissions, duplication, interactions, and dose discrepancies.\n\nKPIs\n\nDispensing accuracy ≥99.5%. Refrigerator temperature compliance ≥99%. Medication reconciliation completion for eligible admissions ≥95%.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nPharmacy Dispensing & Medication Management, 02_Pharmacy_and_Laboratory, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "02_Pharmacy_and_Laboratory/04_Pharmacy_Dispensing_and_Medication_Management.docx",
+      "file_name": "04_Pharmacy_Dispensing_and_Medication_Management.docx",
+      "department": "02_Pharmacy_and_Laboratory",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "5a394f66-efd2-45f3-9de1-6578a4754ac1",
+      "chunk_index": 15,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nInpatient Nursing Operations SOP\n\nDocument ID: ANGH-03_ | Department: 01_Clinical_Operations\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nDefines core nursing routines for safe inpatient care.\n\nShift Handover\n\nUse SBAR: Situation, Background, Assessment, Recommendation.\n\nConfirm patient identity, current diagnosis, allergies, lines/tubes, medications, pending investigations, fall risk, and outstanding clinical concerns.\n\nMedication Safety\n\nUse two patient identifiers before medication administration.\n\nCheck medication, dose, route, timing, allergies, and documented indication.\n\nHigh-alert medications require independent verification according to the medication safety list.\n\nHourly Rounding",
+      "source": "01_Clinical_Operations/03_Inpatient_Nursing_Operations_SOP.docx",
+      "file_name": "03_Inpatient_Nursing_Operations_SOP.docx",
+      "department": "01_Clinical_Operations",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "7eff30b3-7f59-49c7-8825-0335f5d2fce8",
+      "chunk_index": 16,
+      "text": "High-alert medications require independent verification according to the medication safety list.\n\nHourly Rounding\n\nNurses assess pain, position, personal needs, environment, and safety risks at defined intervals. Significant changes are documented in the EHR.\n\nKPIs\n\nMedication administration documentation compliance ≥98%. Nursing handover compliance ≥95%. Fall incidents are reviewed through the patient-safety process.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nInpatient Nursing Operations SOP, 01_Clinical_Operations, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "01_Clinical_Operations/03_Inpatient_Nursing_Operations_SOP.docx",
+      "file_name": "03_Inpatient_Nursing_Operations_SOP.docx",
+      "department": "01_Clinical_Operations",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "af2f54f1-b551-47d9-8e59-1e59f1c78b05",
+      "chunk_index": 17,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nPatient Admission & Discharge Policy\n\nDocument ID: ANGH-01_ | Department: 01_Clinical_Operations\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nDefines the standard process for elective and emergency admission, patient identification, bed allocation, transfer, discharge planning, and post-discharge documentation.\n\nAdmission Process\n\nRegistration verifies patient identity using two identifiers.\n\nThe admitting clinician records diagnosis, clinical priority, allergies, medication history, and required level of care.\n\nBed Management assigns an appropriate bed based on acuity, isolation status, gender, and specialty.\n\nNursing completes the initial assessment within 30 minutes of arrival to the ward.\n\nDischarge Process",
+      "source": "01_Clinical_Operations/01_Patient_Admission_and_Discharge_Policy.docx",
+      "file_name": "01_Patient_Admission_and_Discharge_Policy.docx",
+      "department": "01_Clinical_Operations",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "274e6332-9cc3-492f-8d8f-8385bf1a19e3",
+      "chunk_index": 18,
+      "text": "Nursing completes the initial assessment within 30 minutes of arrival to the ward.\n\nDischarge Process\n\nThe responsible clinician confirms clinical readiness and discharge orders.\n\nPharmacy reconciles discharge medications and provides counselling when required.\n\nBilling confirms financial clearance or approved credit/insurance arrangements.\n\nThe patient receives a discharge summary, medication instructions, follow-up appointment, and emergency contact guidance.\n\nKPIs\n\nAdmission registration accuracy target: 99%. Discharge summary completion before departure target: 98%. Average discharge processing time target: below 45 minutes.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.",
+      "source": "01_Clinical_Operations/01_Patient_Admission_and_Discharge_Policy.docx",
+      "file_name": "01_Patient_Admission_and_Discharge_Policy.docx",
+      "department": "01_Clinical_Operations",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "a15e5179-18cf-4d04-b4ca-1763af0d0d54",
+      "chunk_index": 19,
+      "text": "Related Keywords\n\nPatient Admission & Discharge Policy, 01_Clinical_Operations, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "01_Clinical_Operations/01_Patient_Admission_and_Discharge_Policy.docx",
+      "file_name": "01_Patient_Admission_and_Discharge_Policy.docx",
+      "department": "01_Clinical_Operations",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "f112e1d8-3992-448a-8b78-94555ce9e16e",
+      "chunk_index": 20,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nEmergency Department Operations SOP\n\nDocument ID: ANGH-02_ | Department: 01_Clinical_Operations\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nStandardizes triage, emergency assessment, stabilization, referral, observation, admission, and discharge.\n\nTriage\n\nA registered nurse assigns triage priority using the hospital's five-level acuity model. Immediate threats to airway, breathing, circulation, consciousness, or severe bleeding receive the highest priority.\n\nClinical Workflow\n\nTriage → registration → clinician assessment → diagnostics/treatment → reassessment → disposition.\n\nCritical patients are transferred directly to the resuscitation area.\n\nPatients requiring admission are handed over using a structured clinical handoff.\n\nEscalation",
+      "source": "01_Clinical_Operations/02_Emergency_Department_Operations_SOP.docx",
+      "file_name": "02_Emergency_Department_Operations_SOP.docx",
+      "department": "01_Clinical_Operations",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "2563eff9-754f-4167-a7b8-5207c81bd299",
+      "chunk_index": 21,
+      "text": "Patients requiring admission are handed over using a structured clinical handoff.\n\nEscalation\n\nAny deterioration, abnormal critical result, suspected sepsis, major trauma, or unmanageable workload must be escalated to the ED consultant and nursing supervisor.\n\nKPIs\n\nDoor-to-triage target: ≤10 minutes. Door-to-provider target for high-acuity cases: ≤15 minutes. Left-without-being-seen target: <2%.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nEmergency Department Operations SOP, 01_Clinical_Operations, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "01_Clinical_Operations/02_Emergency_Department_Operations_SOP.docx",
+      "file_name": "02_Emergency_Department_Operations_SOP.docx",
+      "department": "01_Clinical_Operations",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "ce01a5cf-bedc-48cf-9299-6e67198f7807",
+      "chunk_index": 22,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nFacilities Maintenance & Biomedical Equipment SOP\n\nDocument ID: ANGH-12_ | Department: 05_Facilities_and_Supply_Chain\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nDefines preventive maintenance, corrective maintenance, biomedical equipment control, utilities monitoring, and work-order management.\n\nWork Orders\n\nStaff submit maintenance requests through the facilities system.\n\nRequests are classified as emergency, urgent, or routine.\n\nEmergency failures affecting patient safety or critical utilities receive immediate escalation.\n\nPreventive Maintenance\n\nMaintenance schedules are maintained for generators, HVAC, medical gas systems, lifts, fire systems, and biomedical equipment.\n\nBiomedical Equipment",
+      "source": "05_Facilities_and_Supply_Chain/12_Facilities_Maintenance_and_Biomedical_Equipment_SOP.docx",
+      "file_name": "12_Facilities_Maintenance_and_Biomedical_Equipment_SOP.docx",
+      "department": "05_Facilities_and_Supply_Chain",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "0a45f3de-01f1-4c6d-bfe0-cbbe82309576",
+      "chunk_index": 23,
+      "text": "Maintenance schedules are maintained for generators, HVAC, medical gas systems, lifts, fire systems, and biomedical equipment.\n\nBiomedical Equipment\n\nEquipment is tagged with asset ID, location, service status, calibration requirements, and maintenance history. Failed equipment is removed from clinical use until cleared.\n\nKPIs\n\nCritical equipment preventive-maintenance completion ≥95%. Emergency work-order response target ≤15 minutes.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nFacilities Maintenance & Biomedical Equipment SOP, 05_Facilities_and_Supply_Chain, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "05_Facilities_and_Supply_Chain/12_Facilities_Maintenance_and_Biomedical_Equipment_SOP.docx",
+      "file_name": "12_Facilities_Maintenance_and_Biomedical_Equipment_SOP.docx",
+      "department": "05_Facilities_and_Supply_Chain",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "47d40a2e-43af-4649-95b1-e307666a28e6",
+      "chunk_index": 24,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nProcurement & Medical Supplies SOP\n\nDocument ID: ANGH-11_ | Department: 05_Facilities_and_Supply_Chain\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nControls demand planning, requisition, sourcing, purchase orders, receiving, inspection, storage, and supplier performance.\n\nProcurement Workflow\n\nDepartment raises approved requisition.\n\nProcurement obtains quotations or uses an approved contract.\n\nAuthorized approver confirms purchase order.\n\nStores verifies quantity, condition, batch/expiry, and delivery documentation.\n\nInvoice is matched against purchase order and receipt.\n\nMedical Supplies\n\nCritical items such as PPE, IV sets, syringes, and emergency medicines are maintained at defined minimum stock levels.\n\nSupplier Management",
+      "source": "05_Facilities_and_Supply_Chain/11_Procurement_and_Medical_Supplies_SOP.docx",
+      "file_name": "11_Procurement_and_Medical_Supplies_SOP.docx",
+      "department": "05_Facilities_and_Supply_Chain",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "b07ae96b-5a50-4b2a-b799-4916d078efda",
+      "chunk_index": 25,
+      "text": "Critical items such as PPE, IV sets, syringes, and emergency medicines are maintained at defined minimum stock levels.\n\nSupplier Management\n\nSuppliers are reviewed for quality, delivery performance, responsiveness, documentation, and regulatory compliance.\n\nKPIs\n\nStock-out incidents for critical items <1% of requisition days. Purchase-order cycle time target ≤7 working days for standard purchases.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nProcurement & Medical Supplies SOP, 05_Facilities_and_Supply_Chain, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "05_Facilities_and_Supply_Chain/11_Procurement_and_Medical_Supplies_SOP.docx",
+      "file_name": "11_Procurement_and_Medical_Supplies_SOP.docx",
+      "department": "05_Facilities_and_Supply_Chain",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "29ebe570-9bd9-4154-955b-62a6e7f1fd3f",
+      "chunk_index": 26,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nInfection Prevention & Control Manual\n\nDocument ID: ANGH-16_ | Department: 07_Quality_and_Compliance\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nDefines standard precautions, transmission-based precautions, hand hygiene, environmental cleaning, PPE, isolation, and surveillance.\n\nHand Hygiene\n\nStaff perform hand hygiene before patient contact, before aseptic tasks, after body-fluid exposure risk, after patient contact, and after contact with patient surroundings.\n\nIsolation\n\nPatients requiring contact, droplet, airborne, or protective precautions are identified promptly and managed according to the relevant isolation procedure.\n\nEnvironmental Cleaning\n\nHigh-touch surfaces are cleaned at defined frequencies. Cleaning deviations are documented and corrected.\n\nSurveillance",
+      "source": "07_Quality_and_Compliance/16_Infection_Prevention_and_Control_Manual.docx",
+      "file_name": "16_Infection_Prevention_and_Control_Manual.docx",
+      "department": "07_Quality_and_Compliance",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "90ba8062-0363-4899-b2b6-1c24bd3776ed",
+      "chunk_index": 27,
+      "text": "Environmental Cleaning\n\nHigh-touch surfaces are cleaned at defined frequencies. Cleaning deviations are documented and corrected.\n\nSurveillance\n\nInfection Prevention reviews healthcare-associated infection indicators, clusters, and trends and reports material findings to the Infection Control Committee.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nInfection Prevention & Control Manual, 07_Quality_and_Compliance, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "07_Quality_and_Compliance/16_Infection_Prevention_and_Control_Manual.docx",
+      "file_name": "16_Infection_Prevention_and_Control_Manual.docx",
+      "department": "07_Quality_and_Compliance",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "9c0b6389-d6d0-43e4-8756-1394021096fd",
+      "chunk_index": 28,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nIncident Reporting & Patient Safety Policy\n\nDocument ID: ANGH-15_ | Department: 07_Quality_and_Compliance\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nCreates a non-punitive mechanism for reporting safety incidents, near misses, adverse events, and hazards.\n\nReportable Events\n\nMedication errors and near misses.\n\nPatient falls.\n\nWrong-patient or wrong-site events.\n\nEquipment-related incidents.\n\nInfection-control breaches.\n\nPatient identification failures.\n\nReporting Workflow\n\nReporter submits event → supervisor ensures immediate safety actions → Quality team triages severity → investigation/root-cause analysis where required → corrective actions → closure and learning.\n\nEscalation",
+      "source": "07_Quality_and_Compliance/15_Incident_Reporting_and_Patient_Safety_Policy.docx",
+      "file_name": "15_Incident_Reporting_and_Patient_Safety_Policy.docx",
+      "department": "07_Quality_and_Compliance",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "883c9a17-c1c8-416a-854e-fd8f5db1449b",
+      "chunk_index": 29,
+      "text": "Escalation\n\nSerious harm, sentinel events, or events with potential regulatory significance are escalated immediately to senior leadership and relevant governance committees.\n\nKPIs\n\nSerious incidents escalated within defined SLA = 100%. Corrective-action closure within target ≥90%.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nIncident Reporting & Patient Safety Policy, 07_Quality_and_Compliance, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "07_Quality_and_Compliance/15_Incident_Reporting_and_Patient_Safety_Policy.docx",
+      "file_name": "15_Incident_Reporting_and_Patient_Safety_Policy.docx",
+      "department": "07_Quality_and_Compliance",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "4188d848-e071-4eee-849e-f83e2c0f15fd",
+      "chunk_index": 30,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nStaff Performance & Training Framework\n\nDocument ID: ANGH-10_ | Department: 04_HR_and_Administration\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nProvides a common framework for performance goals, competency assessment, mandatory training, coaching, and annual review.\n\nPerformance Cycle\n\nGoal setting at the beginning of the cycle.\n\nQuarterly check-ins covering outcomes, behaviors, development needs, and risks.\n\nMid-year review and corrective development planning where required.\n\nAnnual performance review and development plan.\n\nMandatory Training\n\nClinical staff complete required patient-safety, infection-control, emergency response, and role-specific competency training. Non-clinical staff complete information security, privacy, workplace safety, and relevant compliance training.",
+      "source": "04_HR_and_Administration/10_Staff_Performance_and_Training_Framework.docx",
+      "file_name": "10_Staff_Performance_and_Training_Framework.docx",
+      "department": "04_HR_and_Administration",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "7e0cc88e-2edd-49a4-a07b-defce5a4862a",
+      "chunk_index": 31,
+      "text": "Competency\n\nHigh-risk clinical roles require documented competency validation before independent practice.\n\nKPIs\n\nMandatory training completion ≥98%. Annual performance review completion ≥95%.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nStaff Performance & Training Framework, 04_HR_and_Administration, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "04_HR_and_Administration/10_Staff_Performance_and_Training_Framework.docx",
+      "file_name": "10_Staff_Performance_and_Training_Framework.docx",
+      "department": "04_HR_and_Administration",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "23045a60-4c00-4097-beca-50fe5fefd2f1",
+      "chunk_index": 32,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nHR Recruitment, Onboarding & Leave Policy\n\nDocument ID: ANGH-09_ | Department: 04_HR_and_Administration\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nDefines recruitment, selection, pre-employment checks, onboarding, attendance, leave, and employee records management.\n\nRecruitment\n\nHiring manager submits approved requisition.\n\nHR screens candidates against role requirements.\n\nInterview panel documents structured assessment.\n\nOffer approval follows the delegation matrix.\n\nOnboarding\n\nNew employees complete identity verification, employment documentation, mandatory orientation, infection-control training, information-security training, and department induction.\n\nLeave",
+      "source": "04_HR_and_Administration/09_HR_Recruitment_Onboarding_and_Leave_Policy.docx",
+      "file_name": "09_HR_Recruitment_Onboarding_and_Leave_Policy.docx",
+      "department": "04_HR_and_Administration",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "4c9346ba-5c15-4a38-8cab-91ea65d0f683",
+      "chunk_index": 33,
+      "text": "Leave\n\nEmployees submit leave through the HR system. Department managers assess operational coverage before approval. Emergency leave is recorded retrospectively when permitted by policy.\n\nRecords\n\nPersonnel records are restricted to authorized HR personnel and retained according to the hospital records-retention schedule.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nHR Recruitment, Onboarding & Leave Policy, 04_HR_and_Administration, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "04_HR_and_Administration/09_HR_Recruitment_Onboarding_and_Leave_Policy.docx",
+      "file_name": "09_HR_Recruitment_Onboarding_and_Leave_Policy.docx",
+      "department": "04_HR_and_Administration",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "ba2f383a-de31-446c-bbeb-70a038d48cdd",
+      "chunk_index": 34,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nEHR Data Governance & Privacy Policy\n\nDocument ID: ANGH-14_ | Department: 06_IT_and_Information_Governance\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nDefines governance for electronic health records, data quality, privacy, access, retention, disclosure, and secondary use.\n\nData Quality\n\nPatient demographic data should be complete and accurate.\n\nDuplicate patient records are investigated and merged through an approved process.\n\nClinical corrections preserve an auditable history.\n\nPrivacy\n\nAccess to patient information is limited to legitimate care, operational, legal, or approved analytical purposes. Staff must not access records out of curiosity or without a business need.\n\nData Disclosure",
+      "source": "06_IT_and_Information_Governance/14_EHR_Data_Governance_and_Privacy_Policy.docx",
+      "file_name": "14_EHR_Data_Governance_and_Privacy_Policy.docx",
+      "department": "06_IT_and_Information_Governance",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "94db5b18-1abb-4ff5-8d76-7a485c2b22aa",
+      "chunk_index": 35,
+      "text": "Data Disclosure\n\nExternal disclosures require appropriate authorization and documentation, subject to applicable law and hospital policy.\n\nRetention and Audit\n\nRecords are retained according to the approved schedule. Access logs are reviewed for anomalous or unauthorized activity.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nEHR Data Governance & Privacy Policy, 06_IT_and_Information_Governance, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "06_IT_and_Information_Governance/14_EHR_Data_Governance_and_Privacy_Policy.docx",
+      "file_name": "14_EHR_Data_Governance_and_Privacy_Policy.docx",
+      "department": "06_IT_and_Information_Governance",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "b6dc2f22-8e75-4249-880e-da2c2cb1db80",
+      "chunk_index": 36,
+      "text": "Al Noor General Hospital\n\nMOCK ENTERPRISE DOCUMENT — FOR RAG / AI TESTING ONLY\n\nHospital IT Access & Cybersecurity Policy\n\nDocument ID: ANGH-13_ | Department: 06_IT_and_Information_Governance\n\nVersion: 2.1 | Effective Date: 01 September 2026 | Review Date: 01 September 2027\n\nOwner: Hospital Operations & Quality Directorate | Classification: Internal\n\nPurpose\n\nProtects hospital systems, endpoints, networks, applications, and user accounts from unauthorized access and cyber threats.\n\nAccess Management\n\nAccess is granted based on job role and least privilege.\n\nJoiner, mover, and leaver events are processed through approved workflows.\n\nPrivileged access requires enhanced controls and periodic review.\n\nSecurity Controls\n\nMulti-factor authentication is required for designated systems. Passwords and credentials must not be shared. Suspected phishing, malware, or unauthorized access must be reported immediately.\n\nIncident Response",
+      "source": "06_IT_and_Information_Governance/13_Hospital_IT_Access_and_Cybersecurity_Policy.docx",
+      "file_name": "13_Hospital_IT_Access_and_Cybersecurity_Policy.docx",
+      "department": "06_IT_and_Information_Governance",
+      "file_type": "docx",
+      "page": null
+    },
+    {
+      "chunk_id": "9d36809f-5e76-4e42-879a-3d44a673272e",
+      "chunk_index": 37,
+      "text": "Incident Response\n\nIT Security records, triages, contains, investigates, and closes security incidents. High-severity incidents are escalated to the CIO and designated incident-response team.\n\nKPIs\n\nLeaver access removal within defined SLA ≥99%. Privileged-access review completion = 100%.\n\nGovernance\n\nAll departments follow the Hospital Policy Governance Standard. Exceptions require documented approval from the responsible director and Quality Directorate.\n\nEscalation Matrix\n\nOperational issues are escalated first to the department supervisor, then department head, and finally the relevant executive or on-call leader depending on severity.\n\nRelated Keywords\n\nHospital IT Access & Cybersecurity Policy, 06_IT_and_Information_Governance, Al Noor General Hospital, SOP, policy, approval, escalation, audit, KPI, patient safety",
+      "source": "06_IT_and_Information_Governance/13_Hospital_IT_Access_and_Cybersecurity_Policy.docx",
+      "file_name": "13_Hospital_IT_Access_and_Cybersecurity_Policy.docx",
+      "department": "06_IT_and_Information_Governance",
+      "file_type": "docx",
+      "page": null
+    }
+  ]
+}
